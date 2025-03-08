@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Parkinsans";
+    src: url(../fonts/Parkinsans-Regular.ttf), format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans";
+}
+
+body {
+    background: #0a1531f7;
+}
+
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 8px auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#header h1 {
+    color: #1b1b1bc7;
+    background: aqua;
+    padding: 8px;
+    border-radius: 24px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    border: 4px solid black;
+    justify-content: center;
+    max-width: 30%;
+    background-color: #1ecce798;
+    padding: 54px;
+    border-radius: 24px;
+    box-shadow: 0 0 20px black;
+}
+
+.login__container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.login__form {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    gap: 8px;
+}
+
+.login__form input:not(#form-accept) {
+    outline: none;
+    max-width: 100%;
+    width: 220px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: -24px;
+}
+
+.login__form input::placeholder {
+    visibility: hidden;
+}
+
+.login__form input:focus::placeholder {
+    visibility: visible;
+}
+
+.login__form label {
+    z-index: 10;
+}
+
+.login__form label {
+    color: white;
+}
+
+.login__form label:not(#Remember) {
+    transform: translateY(36px);
+    margin-left: 8px;
+}
+
+#Remember {
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.login__form button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 8px;
+    width: 95%;
+    background: black;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: White;
+    transition: all 650ms;
+    box-shadow: 0 0 14px aqua;
+}
+
+.login__form p {
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+
+.login__form p a {
+    text-decoration: none;
+    color: rgba(248, 248, 255, 0.679);
+    transition: all 450ms;
+}
+
+.login__form p a:hover {
+    color: aqua;
+    text-shadow: 1px 2px 4px black;
+}
+
+.login__container button:hover {
+    background: #00e1ff;
+    color: black;
+    cursor: pointer;
+    border-radius: 18px;
+    box-shadow: 0 0 25px black;
+}
+
+.checkbox {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    /* margin: 8px auto; */
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#email_svg {
+    position: relative;
+    top: 74px;
+    right: 48px;
+    color: ghostwhite;
+    width: 34px;
+    height: 34px;
+    opacity: .8;
+}
+
+#password_svg {
+    position: relative;
+    top: 72px;
+    right: 44px;
+    color: ghostwhite;
+    width: 28px;
+    height: 28px;
+    opacity: .8;
+}
