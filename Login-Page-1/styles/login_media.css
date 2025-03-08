@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1109px) {
+    .container {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .container {
+        max-width: 55%;
+    }
+}
+
+@media only screen and (max-width: 708px) {
+    .container {
+        max-width: 65%;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .container {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 494px) {
+    .login__form {
+        padding-left: 14px;
+    }
+}
+
+@media only screen and (max-width: 489px) {
+    h2 {
+        font-size: 20px;
+    }
+    .container {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+    h2 {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .container {
+        max-width: 95%;
+    }
+    .login__form p {
+        font-size: 14px;
+    }
+    .login__form p a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    h2 {
+        font-size: 14px;
+    }
+    .container {
+        max-width: 98%;
+    }
+    .login__form p {
+        font-size: 12px;
+    }
+    .login__form p a {
+        font-size: 12px;
+    }
+}
